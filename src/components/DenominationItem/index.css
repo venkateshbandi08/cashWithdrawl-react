@@ -1,0 +1,21 @@
+/* Write your CSS here */
+.denominations-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.each-denomination {
+  width: 220px;
+  height: 50px;
+  color: #d4d2db;
+  background-color: #382f5a;
+  border: 1px solid #c4c4c4;
+  border-radius: 6px;
+  font-size: 26px;
+  font-weight: bold;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  outline: none;
+}
